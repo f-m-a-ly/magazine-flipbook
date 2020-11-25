@@ -3,24 +3,98 @@ body {
     margin: auto;
 }
 
-#flipbook {
-    background: ;
-    
-}
-
-
 #flipbook .page {
     background: rgb(56, 32, 32);
-}
-
-#flipbook #front-cover{
-    background-image: url("media/esquire-cover.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
-#flipbook #back-cover {
 
+#flipbook #front-cover{
+    background-image: url("media/esquire-cover.jpg");
+}
+#flipbook #back-cover {
+    background-image: url("media/bts-back.jpg");
+}
+
+#flipbook #page-2 {
+    background-image: url("media/bts-standing.jpg");
+}
+
+#flipbook #page-3 {
+    background-image: url("media/bts-sitting.jpg");
+}
+
+#flipbook #page-4 {
+    background-image: url("media/joon-1.jpg");
+}
+
+#flipbook #page-5 {
+    background-image: url("media/joon-2.jpg");
+}
+
+#flipbook #page-6 {
+    background-image: url("media/jin-2.jpg");
+}
+
+#flipbook #page-7 {
+    background-image: url("media/jin-1.jpg");
+}
+
+#flipbook #page-8 {
+    background-image: url("media/yoongi-1.jpg");
+}
+
+#flipbook #page-9 {
+    background-image: url("media/yoongi-2.jpg");
+}
+
+#flipbook #page-10 {
+    background-image: url("media/hoseok-2.jpg");
+}
+
+#flipbook #page-11 {
+    background-image: url("media/hoseok-1.jpg");
+}
+
+#flipbook #page-12 {
+    background-image: url("media/collage-1.jpg");
+}
+
+#flipbook #page-13 {
+    background-image: url("media/collage-2.jpg");
+}
+
+#flipbook #page-14 {
+    background-image: url("media/jimin-1.jpg");
+}
+
+#flipbook #page-15 {
+    background-image: url("media/jimin-2.jpg");
+}
+
+#flipbook #page-16 {
+    background-image: url("media/tae-2.jpg");
+}
+
+#flipbook #page-17 {
+    background-image: url("media/tae-1.jpg");
+}
+
+#flipbook #page-18 {
+    background-image: url("media/jk-1.jpg");
+}
+
+#flipbook #page-19 {
+    background-image: url("media/jk-2.jpg");
+}
+
+#flipbook #page-20 {
+    background-image: url("media/jimin-jump-2.jpg");
+}
+
+#flipbook #page-21 {
+    background-image: url("media/jimin-jump.jpg");
 }
 
 #flipbook .shadow,
