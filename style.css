@@ -1,7 +1,8 @@
+
 body {
     overflow: hidden;
-    margin: auto;
 }
+
 
 #flipbook .page {
     background: rgb(56, 32, 32);
@@ -109,3 +110,5 @@ body {
 p, h1 {
     color: white
 }
+
+

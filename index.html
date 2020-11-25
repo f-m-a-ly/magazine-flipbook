@@ -7,8 +7,9 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div id="zoom-viewport">
-        <div id="flipbook">
+    <div id="zoom-view" style="position:absolute;width: 50%;
+    margin: 0px auto;">
+        <div id="flipbook"  style="position:relative">
             <div id="front-cover">
                 <p></p>
             </div>
@@ -78,12 +79,19 @@
     <script type="text/javascript">
         $('#flipbook').turn({
             acceleration: true, gradients: true,
-            width: 700,
-            height: 500,
+            width: 975,
+            height: 650,
             page:1,
-            autoCenter:true,
-            duration:2000
-        }) 
+            duration:1000
+        });
+        $("#zoom-view").bind("zoom.doubleTap", function(event) {
+	if ($(this).zoom("value")==1) {
+		$(this).zoom("zoomIn", event);
+	} else {
+		$(this).zoom("zoomOut");
+	}
+});
+
     </script>
 </body>
 </html>
