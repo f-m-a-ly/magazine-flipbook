@@ -1,0 +1,31 @@
+body {
+    overflow: hidden;
+    margin: auto;
+}
+
+#flipbook {
+    background: ;
+    
+}
+
+
+#flipbook .page {
+    background: rgb(56, 32, 32);
+}
+
+#flipbook #front-cover, #flipbook #back-cover{
+    background: rgb(228, 116, 116);
+}
+
+#flipbook .shadow,
+#flipbook.shadow{
+  -webkit-box-shadow: 0 4px 10px #666;
+  -moz-box-shadow: 0 4px 10px #666;
+  -ms-box-shadow: 0 4px 10px #666;
+  -o-box-shadow: 0 4px 10px #666;
+  box-shadow: 0 4px 10px #666;
+}
+
+p, h1 {
+    color: white
+}

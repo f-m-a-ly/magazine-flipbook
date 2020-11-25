@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Esquire Magazine</title>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type="text/javascript" src="turn.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="flipbook">
+        <div id="front-cover">
+            <h1>front</h1>
+            <p></p>
+        </div>
+        <div>
+            <h1>2</h1>
+            <p>When I first met BTS this past September, they were at the headquarters of their record company, Big Hit Entertainment, in Seoul, South Korea, preparing for their live-streaming concert Map Of The Soul On:E. I was at home in Los Angeles. I still am, and I will be for a while. Perhaps you can relate. But I do have one of those Phillips Hue lighting systems that lets me change the color in my office so that I can at least pretend I’m somewhere else. I figured if I couldn’t be with the guys in person, I could at least trick myself into feeling like I was closer.</p>
+        </div>
+        <div>
+            <h1>3</h1>
+            <p>So I asked them: “If I want to get into the proper BTS headspace, what color should I be bathed in?” The answer was unanimous, and I called it, and you probably did, too: purple.</p>
+        </div>
+        <div>
+            <h1>4</h1>
+            <p>Purple has a special meaning for the band and their loyal fanbase, known as ARMY; at a fan convention in 2016, BTS member V told the audience: "Do you know what purple means? Purple is the last of the rainbow colors. Purple means I will trust and love you for a long time. I just made it up.” Since then, “I purple you” has been an expression of love and unity among the fans.
+
+                So I went purple. It worked!</p>
+        </div>
+        <div>
+            <h1>5</h1>
+            <p>I could not be in Seoul, but luckily photographer Hong Jang Hyun could, along with clothing from Berluti, Givenchy, Bottega Veneta, Valentino Garavani, Gucci, and Celine. Here are the individual digital covers he shot, along with thoughts from each member of BTS on which of their songs define them best. We hope you purple them.</p>
+        </div>
+        <div id="back-cover">
+            <h1>back</h1>
+            <p></p>
+        </div>
+    </div>
+
+    <!-- JavaScript for flipbook-->
+    <script type="text/javascript">
+        $('#flipbook').turn({
+            acceleration: true, gradients: true,
+            width: 700,
+            height: 500,
+            page:1,
+            autoCenter:true,
+            duration:2000
+        }) 
+    </script>
+</body>
+</html>
