@@ -3,6 +3,18 @@ body {
     overflow: hidden;
 }
 
+#flipbook-viewport{
+    overflow:hidden;
+    
+}
+
+#flipbook-viewport #container{
+	position:absolute;
+	top:50%;
+	left:50%;
+	margin:auto;
+}
+
 
 #flipbook .page {
     background: rgb(56, 32, 32);
@@ -10,6 +22,13 @@ body {
     background-repeat: no-repeat;
     background-position: center;
 }
+
+
+#flipbook-viewport #flipbook{
+    left:-461px;
+    top:-325px;
+}
+
 
 #flipbook #front-cover{
     background-image: url("media/esquire-cover.jpg");
