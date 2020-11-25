@@ -13,8 +13,14 @@ body {
     background: rgb(56, 32, 32);
 }
 
-#flipbook #front-cover, #flipbook #back-cover{
-    background: rgb(228, 116, 116);
+#flipbook #front-cover{
+    background-image: url("media/esquire-cover.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#flipbook #back-cover {
+
 }
 
 #flipbook .shadow,
