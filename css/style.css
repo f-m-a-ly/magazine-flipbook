@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+body {
+    overflow: hidden;
+    background-image: url("../media/bg.jpeg");
+    background-size: 100%;
+    /* transform: rotate(30deg); */
+}
+
+#flipbook-viewport{
+    overflow:auto;
+    
+}
+
+#container{
+	position:absolute;
+	top:45%;
+	left:50%;
+	right:50%;
+    bottom: 20px;
+}
+
+
+.page {
+    background: rgb(56, 32, 32);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+#flipbook{
+    left:-461px;
+    top:-325px;
+}
+
+
+#front-cover{
+    background-image: url("../media/esquire-cover.jpg");
+}
+#back-cover {
+    background-image: url("../media/bts-back.jpg");
+}
+
+#page-2 {
+    background-image: url("../media/bts-standing.jpg");
+}
+
+#page-3 {
+    background-image: url("../media/bts-sitting.jpg");
+}
+
+#page-4 {
+    background-image: url("../media/joon-1.jpg");
+}
+
+#page-5 {
+    background-image: url("../media/joon-2.jpg");
+}
+
+#page-6 {
+    background-image: url("../media/jin-2.jpg");
+}
+
+#page-7 {
+    background-image: url("../media/jin-1.jpg");
+}
+
+#page-8 {
+    background-image: url("../media/yoongi-1.jpg");
+}
+
+#page-9 {
+    background-image: url("../media/yoongi-2.jpg");
+}
+
+#page-10 {
+    background-image: url("../media/hoseok-2.jpg");
+}
+
+#page-11 {
+    background-image: url("../media/hoseok-1.jpg");
+}
+
+#page-12 {
+    background-image: url("../media/collage-1.jpg");
+}
+
+#page-13 {
+    background-image: url("../media/collage-2.jpg");
+}
+
+#page-14 {
+    background-image: url("../media/jimin-1.jpg");
+}
+
+#page-15 {
+    background-image: url("../media/jimin-2.jpg");
+}
+
+#page-16 {
+    background-image: url("../media/tae-2.jpg");
+}
+
+#page-17 {
+    background-image: url("../media/tae-1.jpg");
+}
+
+#page-18 {
+    background-image: url("../media/jk-1.jpg");
+}
+
+#page-19 {
+    background-image: url("../media/jk-2.jpg");
+}
+
+#page-20 {
+    background-image: url("../media/jimin-jump-2.jpg");
+}
+
+#page-21 {
+    background-image: url("../media/jimin-jump.jpg");
+}
+
+#flipbook .shadow,
+#flipbook.shadow {
+  -webkit-box-shadow: 0 4px 10px #666;
+  -moz-box-shadow: 0 4px 10px #666;
+  -ms-box-shadow: 0 4px 10px #666;
+  -o-box-shadow: 0 4px 10px #666;
+  box-shadow: 0 4px 10px #666;
+}
+
+#flipbook p, h1 {
+    color: white
+}
+
+footer {
+    margin-top: 3rem;
+    position: fixed;
+    bottom: 2rem;
+    left: 0;
+    right: 0;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    padding: 0 4rem ;
+}
+
+
